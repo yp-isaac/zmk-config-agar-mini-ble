@@ -49,7 +49,7 @@
         };
 
         period {
-            bindings = <&kp PERIOD>;
+            bindings = <&kp QUESTION>;
             key-positions = <34 33>;
         };
     };
