@@ -49,7 +49,7 @@
         };
 
         period {
-            bindings = <&kp QUESTION>;
+            bindings = <&kp SLASH>;
             key-positions = <34 33>;
         };
     };
@@ -168,10 +168,10 @@
 
         MOUSE {
             bindings = <
-&tog 5  &trans  &trans          &msc MOVE_Y(5)   &trans           &trans  &trans     &trans          &mmv MOVE_UP    &trans           &trans  &trans  &trans
+&trans  &trans  &trans          &msc MOVE_Y(5)   &trans           &trans  &trans     &trans          &mmv MOVE_UP    &trans           &trans  &trans  &trans
 &trans  &trans  &msc SCRL_LEFT  &msc MOVE_Y(-5)  &msc SCRL_RIGHT  &trans  &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &trans  &trans          &trans           &trans           &trans  &trans     &trans          &trans          &trans           &trans  &trans
-        &trans  &trans                           &mkp LCLK                &mkp RCLK                                  &trans           &trans
+        &trans  &trans                           &mkp LCLK                &mkp RCLK                                  &trans           &tog 5
             >;
         };
 
