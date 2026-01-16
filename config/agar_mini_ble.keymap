@@ -97,7 +97,7 @@
         alt_ctrl: alt_ctrl {
             compatible = "zmk,behavior-mod-morph";
             label = "ALT_CTRL";
-            bindings = <&kp TAB>, <&kp LC(TAB)>;
+            bindings = <&mt LCTRL TAB>, <&kp LC(TAB)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
