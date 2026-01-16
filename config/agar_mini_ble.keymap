@@ -57,6 +57,11 @@
             bindings = <&kp SQT>;
             key-positions = <23 22>;
         };
+
+        sleep {
+            bindings = <&sleep>;
+            key-positions = <1 5 7 8>;
+        };
     };
 
     macros {
@@ -84,6 +89,14 @@
             #binding-cells = <0>;
             bindings = <&kp EXCLAMATION &kp C &kp N &kp F &kp C &kp P &kp R &kp ENTER>;
             label = "DISCORD_DAILY";
+        };
+
+        sleep: sleep {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(Q))>, <&macro_wait_time 300>, <&kp ESC>;
+
+            label = "SLEEP";
         };
     };
 
