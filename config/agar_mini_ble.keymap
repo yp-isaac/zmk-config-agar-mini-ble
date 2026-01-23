@@ -150,10 +150,10 @@
 
         ARROW {
             bindings = <
-&kp BSLH  &trans    &kp UP    &trans     &trans  &trans  &trans    &kp LS(N9)  &kp LS(N0)  &kp NON_US_BACKSLASH  &trans   &kp GRAVE  &kp BSPC
-&kp CAPS  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans    &kp MINUS   &kp EQUAL   &kp SEMI              &kp SQT  &kp RET
-&trans    &trans    &trans    &trans     &trans  &trans  &kp LBKT  &kp RBKT    &trans      &trans                &trans   &trans
-          &trans    &trans               &trans          &trans                            &trans                &trans
+&kp BSLH  &trans    &kp UP    &trans     &trans  &trans  &trans    &kp LS(N9)  &kp LS(N0)  &kp BACKSLASH  &trans   &kp GRAVE  &kp BSPC
+&kp CAPS  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans    &kp MINUS   &kp EQUAL   &kp SEMI       &kp SQT  &kp RET
+&trans    &trans    &trans    &trans     &trans  &trans  &kp LBKT  &kp RBKT    &trans      &trans         &trans   &trans
+          &trans    &trans               &trans          &trans                            &trans         &trans
             >;
         };
 
