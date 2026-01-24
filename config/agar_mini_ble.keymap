@@ -150,19 +150,19 @@
 
         ARROW {
             bindings = <
-&kp BSLH  &trans    &kp UP    &trans     &trans  &trans  &trans    &kp LS(N9)  &kp LS(N0)  &kp BACKSLASH  &trans   &kp GRAVE  &kp BSPC
-&kp CAPS  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans    &kp MINUS   &kp EQUAL   &kp SEMI       &kp SQT  &kp RET
-&trans    &trans    &trans    &trans     &trans  &trans  &kp LBKT  &kp RBKT    &trans      &trans         &trans   &trans
-          &trans    &trans               &trans          &trans                            &trans         &trans
+&kp LS(LG(NUMBER_2))  &trans    &kp UP    &trans     &trans  &trans  &trans    &kp LS(N9)  &kp LS(N0)  &kp BACKSLASH  &trans   &kp GRAVE  &kp BSPC
+&kp CAPS              &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans    &kp MINUS   &kp EQUAL   &kp SEMI       &kp SQT  &kp RET
+&trans                &trans    &trans    &trans     &trans  &trans  &kp LBKT  &kp RBKT    &trans      &trans         &trans   &trans
+                      &trans    &trans               &trans          &trans                            &trans         &trans
             >;
         };
 
         NUMBER {
             bindings = <
-&trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans
-&trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans        &trans          &trans          &trans                  &trans  &trans
+&kp LG(LS(NUMBER_2))  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans
+&trans                &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans        &trans          &trans          &trans                  &trans  &trans
             >;
         };
 
