@@ -99,7 +99,7 @@
         sleep: sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LC(Q))>, <&macro_wait_time 300>, <&kp ESC>;
+            bindings = <&kp LG(LC(Q))>, <&macro_wait_time 1000>, <&kp ESC>;
 
             label = "SLEEP";
         };
